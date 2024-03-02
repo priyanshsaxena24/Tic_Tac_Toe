@@ -93,6 +93,8 @@ function App() {      //idhar toh deklhiya tha naa ki App ek function hai
   }
 
   return (
+    <>
+    <head>React Tic-Tac-Toe</head>
     <main>
       <div id='game-container'>
         <ol id='players' className="highlight-player">
@@ -105,6 +107,7 @@ function App() {      //idhar toh deklhiya tha naa ki App ek function hai
       </div>
       <Log turns={gameTurns} />
     </main>
+      </>
   )
 }
 
